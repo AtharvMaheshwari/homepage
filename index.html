@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atharv Maheshwari - Homepage</title>
+  <link rel="stylesheet" href="style_29nov2025.css">
+</head>
+
+<body data-theme="dark">
+  <div class="layout">
+
+    <!-- ==================== SIDEBAR ==================== -->
+    <aside class="sidebar">
+      <div class="profile-box">
+        <img src="images/profile3.jpeg" class="avatar" alt="Profile photo of Atharv">
+        <h1 class="name">Atharv Maheshwari</h1>
+        <p class="tagline">Undergraduate · IIT Bombay</p>
+      </div>
+
+  <nav class="nav">
+
+    <button data-section="home" onclick="showSection('home')">
+    <span>Home</span>
+    </button>
+
+    <button data-section="academics" onclick="showSection('academics')">
+    <span>Academics</span>
+    </button>
+
+    <button data-section="projects" onclick="showSection('projects')">
+    <span>Projects</span>
+    </button>
+
+    <div class="nav-subgroup">
+      <button data-section="proj-physics" onclick="showSection('proj-physics')">• Physics Projects</button>
+      <button data-section="proj-engineering" onclick="showSection('proj-engineering')">• Engineering & Technical Project</button>
+      <button data-section="proj-misc" onclick="showSection('proj-misc')">• Miscellaneous Projects</button>
+    </div>
+
+    <button data-section="life-hobbies" onclick="showSection('life-hobbies')">
+    <span>Life & Hobbies</span>
+    </button>
+
+    <button data-section="contact" onclick="showSection('contact')">
+    <span>Contact</span>
+    </button>
+
+  </nav>
+
+    <button id="themeToggle" class="theme-toggle">
+      <span class="icon-sun">☀️</span>
+      <span class="icon-moon">🌙</span>
+    </button>
+
+    <div class="sidebar-updated">
+      Last updated: Nov 2025 <span id="lastUpdated"></span>
+			<br>Website under upgradation...
+    </div>
+    
+    </aside>
+  
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="content-area" id="contentArea">
+
+          <section id="home" class="section section--home active">
+
+      <div class="hero-container">
+        
+      <!-- Left text side -->
+      <div class="hero-left">
+        <p class="tagline" style="color:red;">This page is old and currently being updated!</p>
+        <h1 class="hero-big-title">Atharv Maheshwari</h1>
+        <p class="hero-subtitle-large">
+          Hi, I'm a currently a third-year Engineering Physics undergraduate at IIT Bombay...<br>
+          Exploring ideas across physics and engineering
+        </p>
+
+        <p class="hero-description">
+          <!-- placeholder intro -->
+          I have a keen interest in Condensed Matter Physics and Quantum Technology. I want to explore the phenomena that emerge from various quantum materials and their applications in modern-day technologies
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary" onclick="showSection('projects')">View Projects</button>
+          <button class="btn-secondary" onclick="showSection('contact')">Contact Me</button>
+          <a href="./Atharv_Maheshwari_CV.pdf" class="btn-cv" download>
+            Download CV
+          </a>
+        </div>
+
+      </div>
+
+        <!-- Right hero image -->
+        <div class="hero-right">
+          <div class="hero-image-frame">
+            <img src="images/profile2.jpeg" class="hero-big-image" alt="Atharv">
+          </div>
+        </div>
+      </div>
+
+    </section>
+<!-- ===== ACADEMICS ===== -->
+<section id="academics" class="section section--academics">
+
+  <h2>Academics</h2>
+  <p class="section-intro">
+    A timeline of my academic journey, followed by detailed sections for each institution.
+  </p>
+
+  <!-- ===================== CLEAN TIMELINE ===================== -->
+  <div class="timeline-clean">
+
+    <div class="timeline-row">
+      <div class="t-year">2023 – Present</div>
+      <div class="t-grade">Undergraduate</div>
+      <div class="t-inst">Indian Institute of Technology Bombay</div>
+    </div>
+
+    <div class="timeline-row">
+      <div class="t-year">2021 – 2023</div>
+      <div class="t-grade">Class 11–12</div>
+      <div class="t-inst">Ryan International School, Indore</div>
+    </div>
+
+    <div class="timeline-row">
+      <div class="t-year">2008 – 2021</div>
+      <div class="t-grade">Nursery – Class 10</div>
+      <div class="t-inst">Choithram School North Campus, Indore</div>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== IIT BOMBAY DETAILS ===================== -->
+  <div class="acad-block">
+    <h3>IIT Bombay</h3>
+
+    <ul class="acad-list">
+      <li><strong>Degree:</strong> B.Tech with Honors in Engineering Physics</li>
+      <li><strong>Minor:</strong> Electrical Engineering</li>
+      <li><strong>CPI:</strong> 9.63 / 10</li>
+    </ul>
+  </div>
+
+  <!-- ===================== COURSE CARDS (UNCHANGED) ===================== -->
+<h2 class="acad-subtitle">Courses taken at IIT Bombay:</h2>
+
+<div class="course-section">
+
+  <div class="course-card">
+    <h3>Physics</h3>
+    <ul class="course-list">
+      <li>Classical Mechanics</li>
+      <li>Quantum Mechanics I & II</li>
+      <li>Electromagnetic Theory</li>
+      <li>Statistical Mechanics</li>
+      <li>Nonlinear Dynamics</li>
+      <li>Waves and Oscillations</li>
+      <li>Condensed Matter Physics</li>
+      <li>Thermodynamics</li>
+      <li>General Physics Lab</li>
+      <li>Solid State & Nuclear Physics Lab</li>
+      <li>Quantum Information Computing</li>
+      <li>Astrophysics</li>
+    </ul>
+  </div>
+
+  <div class="course-card">
+    <h3>Mathematics</h3>
+    <ul class="course-list">
+      <li>Linear Algebra</li>
+      <li>Differential Equations</li>
+      <li>Complex Analysis & Integral Transforms</li>
+      <li>Multivariable Calculus</li>
+      <li>Numerical Analysis</li>
+    </ul>
+  </div>
+
+  <!-- <div class="course-card small-list"> -->
+  <div class="course-card">
+    <h3>Electronics</h3>
+    <ul class="course-list">
+      <li>Electronics Engineering</li>
+      <li>Analog Electronics Lab</li>
+      <li>Digital Electronics & Microprocessors Lab</li>
+    </ul>
+  </div>
+
+  <div class="course-card">
+    <h3>Others</h3>
+    <ul class="course-list">
+      <li>Computer Programming & Utilization</li>
+      <li>AI & Data Science</li>
+      <li>Entrepreneurship & Innovation</li>
+      <li>Chemistry Lab</li>
+      <li>Management</li>
+      <li>Economics</li>
+      <!-- <li>Environmental Science</li> -->
+    </ul>
+  </div>
+
+</div>
+
+
+
+</section>
+
+
+    <!-- ============================ 
+    ========= PROJECTS MAIN =========
+    ============================= -->
+
+<section id="projects" class="section section--projects">
+
+  <!-- Overall heading -->
+  <h1 class="proj-title">Projects</h1>
+  <p class="proj-subtitle">
+    Some of my major work across physics, engineering and other domains.
+  </p>
+
+  <div class="proj-grid">
+
+    <!-- LEFT: Physics -->
+    <div class="proj-col proj-col-large">
+      <div class="proj-box">
+        <h2>Physics Projects</h2>
+        <ol>
+          <li>Ion Traps & Mechanical Analog – Research Project</li>
+          <li>Role of Nonlinear Resonances in Protection of Qubits – Research Project</li>
+          <li>Surface States in Periodic Potentials</li>
+          <li>Mass Function & Distance of Star Clusters using GIT Data</li>
+          <li>Electronic Circuit Equivalent of Mechanical Impacting System</li>
+          <li>Grover’s Quantum Search Algorithm – QISKIT</li>
+        </ol>
+<br>
+        <button class="proj-btn" onclick="showSection('proj-physics')">
+          View Physics Projects →
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="proj-col proj-col-small">
+
+      <!-- TOP RIGHT: Engineering -->
+      <div class="proj-box">
+        <h2>Engineering Projects</h2>
+        <ol>
+          <li>Mars Rover Team</li>
+          <li>Gyroscopic Controller</li>
+        </ol>
+<br>
+        <button class="proj-btn" onclick="showSection('proj-engineering')">
+          View Engineering Projects →
+        </button>
+      </div>
+
+      <!-- BOTTOM RIGHT: Misc -->
+      <div class="proj-box">
+        <h2>Miscellaneous Projects</h2>
+        <ol>
+          <li>Braillify: Electronic Braille Device</li>
+        </ol>
+<br>
+        <button class="proj-btn" onclick="showSection('proj-course')">
+          View Course Projects →
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ========================================================= -->
+<!--                  PHYSICS RESEARCH SECTION                 -->
+<!-- ========================================================= -->
+
+<section id="proj-physics" class="section section--projects subproj">
+
+  <div class="proj-wrapper">
+
+    <h1 class="proj-title">Physics Projects:</h1>
+    <p class="proj-subtitle">
+      This has research as well as course projects
+    </p>
+
+    <div class="proj-list scrollable">
+
+        <!-- ================= CARD 1 ================= -->
+        <div class="proj-card">
+
+          <h2>Ion Traps & Mechanical Analog - Research Project</h2>
+
+          <div class="proj-meta">
+            Prof. Kantimay Das Gupta · IIT Bombay · Jan 2025 - Jul 2025
+          </div>
+
+          <ul>
+              <li>Studied systems that trap ions in oscillating electric fields (<strong>Paul traps</strong>), creating a 3D pseudo-potential well using electrodes of specific geometries, and applied concepts from Floquet theory and numerical analysis</li>
+              <li>Designed and fabricated a <strong>3D-printed rotating-saddle</strong> mechanical analog of an ion trap, using Fusion360 software</li>
+              <li>Analytically determined and experimentally verified the angular velocity required for stability of a sphere on a rotating saddle</li>
+              <li>Experimentally achieved a <strong>bound trajectory</strong> for a sphere lasting nearly <strong>280 seconds</strong> at optimal angular velocity</li>
+              <li>Derived the <strong>effective trajectory</strong> of the <strong>centre of mass</strong> for an extended object and refined the surface geometry so that the centre of mass follows the desired hyperbolic-paraboloid (saddle) path</li>
+          </ul>
+
+
+          <div class="proj-links">
+            <a href="https://drive.google.com/drive/folders/1RZL29PEBHscIB5iPaX2fxlUUSOwS8Cmf?usp=drive_link" target="_blank">
+              Project Docs
+            </a>
+          </div>
+
+        </div>
+
+
+      <!-- ================= CARD 2 ================= -->
+      <div class="proj-card">
+
+        <h2>Role of Nonlinear Resonances in Protection of Qubits - Research Project</h2>
+
+        <div class="proj-meta">
+          Prof. Sudhir Ranjan Jain · UM-DAE CBS · Aug 2024 - Present
+        </div>
+
+        <ul>
+            <li>Analyzing stable <strong>elliptical</strong> and unstable <strong>hyperbolic fixed points</strong> in macroscopic quantum systems, such as <strong>Josephson junctions</strong>, to understand system dynamics under varying parameters and optimize stability</li>
+            <li>Studying effects of perturbations in the system based on fundamentals of the <strong>Kolmogorov-Arnold-Moser (KAM)</strong> theorem</li>
+            <li>Optimizing parameters to inhibit <strong>information leakage</strong> and suppress <strong>decoherence</strong> caused by quantum tunneling</li>
+        </ul>
+
+
+        <div class="proj-links">
+          <a href="https://drive.google.com/drive/folders/1HFPn3pBd4mlQ3tofxoQ-okUgR5Z5DSKl?usp=drive_link" target="_blank">
+            Project Docs
+          </a>
+        </div>
+
+      </div>
+
+
+
+<!-- ================= CARD: Shockley Surface States ================= -->
+      <div class="proj-card">
+
+        <h2>Surface States in Periodic Potentials</h2>
+
+        <div class="proj-meta">
+          Prof. Hridis Pal · Condensed Matter Physics · Aug 2025 - Nov 2025
+        </div>
+
+        <ul>
+          <li>Analyzed the conditions for <strong>Shockley surface states</strong> in finite 1-D periodic potentials, incorporating physically correct <em>decaying-wavefunction</em> boundary conditions at crystal edges</li>
+          <li>Differentiated <strong>Shockley</strong> and <strong>Tamm</strong> states by studying their distinct origins: band inversion versus surface potential discontinuities</li>
+          <li>Extended the model to three dimensions, presenting theoretical <strong>surface bands</strong> and explaining their implications for electronic conductivity in materials such as diamond and metals</li>
+        </ul>
+
+        <div class="proj-links">
+          <a href="https://drive.google.com/drive/folders/1nk-7GmqD-V8RLlTT0aw0bUeXHAgEGVTK" target="_blank">
+            Project Docs
+          </a>
+        </div>
+
+      </div>
+
+<!-- ================= CARD: Mass Function & Star Cluster Distance ================= -->
+      <div class="proj-card">
+
+      <h2>Mass Function & Distance of Star Clusters using GIT Data</h2>
+
+      <div class="proj-meta">
+        Prof. Varun Bhalerao · Astrophysics · GROWTH-India Telescope · Aug 2025 - Nov 2025
+      </div>
+
+      <ul>
+        <li>Procured live <strong>GIT</strong> observations of two open clusters and performed photometric reduction in the <em>u, g, r, i</em> bands to extract apparent magnitudes and compute <strong>stellar temperatures</strong> from color indices (g-r, g-i, u-g)</li>
+        <li>Estimated <strong>cluster distances</strong> and <strong>absolute magnitudes</strong> of stars  by aligning the observed sequence with the standard <strong>Hertzsprung-Russell (H-R) diagram</strong>, and plotted absolute magnitude against temperature</li>
+        <li>Determined the <strong>Spectral Type</strong> and <strong>Luminosity Class</strong> of each star to estimate its <strong>stellar mass</strong></li>
+        <li>Constructed the <strong>cluster mass function</strong> and fitted theoretical isochrones to estimate the <strong>age of the cluster</strong></li>
+      </ul>
+
+      <div class="proj-links">
+        <a href="https://drive.google.com/drive/folders/1A_FQBPFfBGAy_gLLGw70J83VYa1khj9m" target="_blank">
+          Project Docs
+        </a>
+      </div>
+
+      </div>
+
+      <!-- ================= CARD: Electronic Circuit Equivalent of Mechanical Impact System ================= -->
+
+      <div class="proj-card">
+
+      <h2>Electronic Circuit Equivalent of Mechanical Impacting System</h2>
+
+      <div class="proj-meta">
+        Prof. Punit Parmananda · Non-Linear Dynamics · Aug 2024 - Nov 2024
+      </div>
+
+      <ul>
+        <li>
+          Performed stability analysis of mechanical <strong>soft</strong> and <strong>hard</strong> impact systems 
+          and developed their corresponding <strong>electrical circuit analogs</strong>
+        </li>
+        <li>
+          Observed a narrow band of <strong>chaos</strong> between period-1 and period-2 regimes of displacement 
+          amplitudes, with bifurcations arising from variations in soft-impact distance or system energy
+        </li>
+        <li>
+          Presented the work as part of a three-member team to a class of 65 students, illustrating 
+          how <strong>chaotic behavior</strong> manifests in nonlinear systems
+        </li>
+      </ul>
+
+      <div class="proj-links">
+        <a href="https://drive.google.com/drive/folders/1lfOzaXCqHNLfUTIKyEZ1M0EY2NAypU2-" target="_blank">
+          Project Docs
+        </a>
+      </div>
+
+      </div>
+
+
+      <!-- ================= CARD: Grover's Quantum Search Algorithm ================= -->
+      <div class="proj-card">
+
+        <h2>Grover's Quantum Search Algorithm - QISKIT</h2>
+
+        <div class="proj-meta">
+          Prof. Siddhartha Santra · Quantum Information & Computing · Aug 2025 - Nov 2025
+        </div>
+
+        <ul>
+          <li>
+            Implemented <strong>Grover's Quantum Search Algorithm</strong> for 
+            <em>n</em>-qubit systems (search space of size <strong>2<sup>n</sup></strong>) 
+            using the QISKIT framework in Python
+          </li>
+          <li>
+            Designed custom <strong>oracles</strong> and <strong>diffusion operators</strong> 
+            to detect one or more marked states in an unsorted quantum database
+          </li>
+          <li>
+            Explored practical challenges in implementing Grover's algorithm on 
+            existing <strong>quantum hardware</strong> and compared its performance 
+            with classical search methods
+          </li>
+        </ul>
+
+        <div class="proj-links">
+          <a href="https://drive.google.com/drive/folders/1IpcOO9ZUJ7aat4ft4y0939lnbu3oFc8u" target="_blank">
+            Project Docs
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- ================= end of cards ================= -->
+    </div>
+  </div>
+
+</section>
+
+<!-- ========================================================= -->
+<!--                  Engineering & Technical                  -->
+<!-- ========================================================= -->
+
+<section id="proj-engineering" class="section section--projects subproj">
+  <div class="proj-wrapper">
+
+    <h1 class="proj-title">Engineering & Technical Projects:</h1>
+    <!-- <p class="proj-subtitle">
+      Robotics, control theory, rover subsystems, nonlinear systems, electromechanical design, and embedded engineering.
+    </p> -->
+
+    <div class="proj-list scrollable">
+
+<!-- =============== FEATURED CARD: TECHNICAL EXPERIENCE - MARS ROVER TEAM =============== -->
+<div class="proj-card proj-card--large">
+
+  <!-- ====== Header ====== -->
+  <h1 class="proj-title-large">Mars Rover Team, IIT Bombay</h1>
+  <div class="proj-meta">
+    Guide: Prof. P. J. Guruprasad · Oct 2023 - Present
+  </div>
+
+  <!-- ====== Achievements Overview ====== -->
+  <div class="proj-meta">Team Achievements:</div>
+  <ul class="proj-bullets">
+    <li>Part of a 40-member team building a semi-autonomous rover for extreme terrains</li>
+    <li>Ranked <strong>1st in India</strong> at <strong>University Rover Challenge 2023</strong>, USA</li>
+    <li>Ranked <strong>2nd</strong> at <strong>European Rover Challenge (ERC) 2025</strong></li>
+    <li>Secured <strong>1st place</strong> in <strong>Astrobiology Expedition Mission</strong> at IRC 2023, BITS Pilani</li>
+  </ul>
+
+  <!-- ====== Role 1 ====== -->
+  <div class="proj-role">
+    <h3>Senior Design Engineer - Robotic Arm Subsystem</h3>
+    <div class="proj-meta-light">Oct 2023 - Apr 2025</div>
+  </div>
+
+  <ul class="proj-bullets">
+    <li>Designed a <strong>5-DOF high-precision robotic arm</strong> using a custom zero-backlash cycloidal gearbox, replacing a bulkier 6-DOF arm</li>
+    <li>Achieved millimeter-level precision using <strong>encoder feedback</strong>, <strong>inverse kinematics</strong>, and <strong>PID control</strong>, enabling tasks such as autonomous keyboard typing</li>
+    <li>Developed a <strong>differential gearbox</strong> and a <strong>4-bar linkage differential</strong> to improve rover stability</li>
+    <li>Enhanced suspension performance by switching from Rocker-Bogie to <strong>ORFL suspension</strong></li>
+    <li>Designed a split-wheel system reducing camber in the rover suspension, reducing bending loads and increasing chassis lifetime</li>
+  </ul>
+
+  <!-- ====== Role 2 ====== -->
+  <div class="proj-role">
+    <h3>Mechanical & R&D Lead</h3>
+    <div class="proj-meta-light">May 2025 - Present</div>
+  </div>
+
+  <ul class="proj-bullets">
+    <li>Mentoring a team of <strong>12 engineers</strong> across Robotic Arm, Life Detection & Mobility subsystems</li>
+    <li>
+      Engineering a compact <strong>zero-backlash strain-wave gearbox</strong> as an upgrade to the cycloidal system
+    </li>
+    <li>
+      Implementing <strong>explicit steering control</strong> for enhanced yaw dynamics and chassis stability
+    </li>
+    <li>
+      Developing a <strong>multilayered gearbox</strong> to increase reduction ratio while reducing size, and a 
+      <strong>BLDC-driven belt system</strong> for arm stabilization
+    </li>
+  </ul>
+
+</div>
+
+
+      <!-- ========== CARD 1 ========== -->
+      <!-- <div class="proj-card">
+        <h2>Mars Rover - Robotic Arm & Navigation</h2>
+        <div class="proj-meta">
+          IITB Mars Rover Team · 20XX - Present
+        </div>
+
+        <ul>
+          <li>Designed and analyzed a multi-DOF robotic arm for URC tasks.</li>
+          <li>Developed autonomy, navigation stack, and hardware integration.</li>
+          <li>Contributed to a full end-to-end rover system including mobility, science, and comms subsystems.</li>
+        </ul>
+
+        <div class="proj-links">
+          <a href="#">Docs</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div> -->
+
+
+      <!-- ========== CARD 2 ========== -->
+      <!-- <div class="proj-card">
+        <h2>Morphobot - Hybrid Drone (Flying + Walking)</h2>
+        <div class="proj-meta">
+          Robotics Lab · Jan 2025 - Apr 2025
+        </div>
+
+        <ul>
+          <li>Designed a morphing drone capable of both aerial flight and ground traversal.</li>
+          <li>Reduced battery usage and mission time by nearly <strong>50%</strong> using hybrid locomotion.</li>
+          <li>Implemented autonomous navigation for uneven, obstacle-dense terrain.</li>
+        </ul>
+
+        <div class="proj-links">
+          <a href="#">Docs</a>
+        </div>
+      </div> -->
+
+
+      <!-- ========== CARD 3 ========== -->
+      <div class="proj-card">
+        <h2>Gyroscopic Motion Controller</h2>
+        <div class="proj-meta">
+          Digital Electronics Lab · Jan 2025 - Apr 2025
+        </div>
+
+        <ul>
+          <li>Built a motion-sensing controller using <strong>MPU6050</strong> (gyro + accelerometer).</li>
+          <li>Applied a <strong>Kalman Filter</strong> for noise reduction and stable estimation.</li>
+          <li>Designed and controlled a custom 3+1 DOF actuated arm using the self-built controller.</li>
+        </ul>
+
+        <div class="proj-links">
+          <a href="#">Docs</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================================================= -->
+<!--                  Course & Misc Projects                   -->
+<!-- ========================================================= -->
+
+
+<section id="proj-misc" class="section section--projects subproj">
+  <div class="proj-wrapper">
+
+    <h1 class="proj-title">Miscellaneous Projects:</h1>
+    <!-- <p class="proj-subtitle">
+      Computational modelling, quantum information, simulations, and miscellaneous explorations across courses.
+    </p> -->
+
+    <div class="proj-list scrollable">
+
+<!-- ================= CARD: Braillify - Electronic Braille Device ================= -->
+      <div class="proj-card">
+
+        <h2>Braillify: Electronic Braille Device</h2>
+
+        <div class="proj-meta">
+          Entrepreneurship Project · Dec 2024 – Present
+        </div>
+
+        <ul>
+          <li>Innovating a <strong>digital Braille</strong> device featuring <strong>8-dot Braille</strong> for expanded character representation</li>
+          <li>Developed an <strong>electromagnetic actuation system</strong> for individual Braille pins, enabling dynamic real-time text display</li>
+          <li>Integrated <strong>Bluetooth</strong> and <strong>Wi-Fi</strong> for wireless connectivity and added a built-in multipurpose Braille keyboard</li>
+          <li>Optimized device design for <strong>cost-effective manufacturing</strong> by refining components, reducing complexity, and minimizing material use - making the device more accessible and affordable</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================================================= -->
+<!--                  LIFE and HOBBIES SECTION                 -->
+<!-- ========================================================= -->
+
+
+
+      <!-- ===== LIFE HOBBIES ===== -->
+      <section id="life-hobbies" class="section">
+        <h2>Life and Hobbies</h2>
+        <p class="section-intro">
+          Welcome to my personal space, this is where I'll write about me, my journey and stories from IITB.
+        </p>
+        <p>
+<!--          You can talk about life at the institute, clubs and teams you're a part of,
+          or anything outside academics that shaped you. You can list things like sports, music, reading, travel, photography, art,
+          game dev, or anything else that feels like "you".
+    -->    </p>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="section-intro">
+          Feel free to reach out - for collaboration, questions, or just to say hi.
+        </p>
+
+        <div class="contact-list">
+          <div class="contact-item">
+            <span class="contact-label">Email (IITB)</span>
+            <a href="mailto:atharvmaheshwari@iitb.ac.in">atharvmaheshwari@iitb.ac.in</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">Email (Personal)</span>
+            <a href="mailto:atharvmaheshwari7@gmail.com">atharvmaheshwari7@gmail.com</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/atharv-maheshwari/" target="_blank">atharv-maheshwari/</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">Instagram</span>
+            <a href="#" target="_blank">@itsatharvmaheshwari</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/AtharvMaheshwari" target="_blank">github.com/AtharvMaheshwari</a>
+          </div>
+<!--
+          <div class="contact-item">
+            <span class="contact-label">Other Profiles</span>
+            <p class="contact-note">
+              You can add Google Scholar, ORCID, ResearchGate, or a link to your CV / resume here.
+            </p>
+          </div>
+-->
+        </div>
+<br><br>
+Contact Directly via this form:
+  <form action="https://formspree.io/f/mangrjlw" method="POST" class="contact-form">
+
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="form-submit">
+      Send Message
+    </button>
+
+  </form>
+
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script_28nov2025.js"></script>
+</body>
+</html>
